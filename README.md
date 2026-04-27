@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ayush Singh — Data Analyst</title>
+  <title>Anirban Mahanta — Data Analyst</title>
 
   <!-- ✅ FIX #9: OG / Meta Tags added for LinkedIn & WhatsApp preview -->
-  <meta name="description" content="Ayush Singh — Data Analyst. Power BI, SQL, Advanced Excel. 7 end-to-end projects across 6 industries." />
-  <meta property="og:title" content="Ayush Singh — Data Analyst Portfolio" />
+  <meta name="description" content="Anirban Mahanta — Data Analyst. Power BI, SQL, Advanced Excel. 7 end-to-end projects across 6 industries." />
+  <meta property="og:title" content="Anirban Mahanta — Data Analyst Portfolio" />
   <meta property="og:description" content="7 real-world analytics projects across 6 industries. Power BI · Excel · SQL · DAX." />
   <meta property="og:image" content="assets/images/profile-photo.jpeg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Ayush Singh — Data Analyst Portfolio" />
+  <meta name="twitter:title" content="Anirban Mahanta — Data Analyst Portfolio" />
   <meta name="twitter:description" content="7 end-to-end projects · ₹311M+ revenue tracked · Power BI Expert" />
 
   <!-- ✅ FIX #13: SVG Favicon added — browser tab no longer blank -->
@@ -49,7 +49,7 @@
   <!-- ===== AVAILABILITY BANNER ===== -->
   <div id="availability-banner">
     <span class="avail-dot"></span>
-    <span class="avail-text avail-desktop">🟢 Open to Work &nbsp;·&nbsp; Data Analyst / Business Analyst &nbsp;·&nbsp; Immediate Joiner &nbsp;·&nbsp; Lucknow / Remote</span>
+    <span class="avail-text avail-desktop">🟢 Open to Work &nbsp;·&nbsp; Data Analyst / Business Analyst &nbsp;·&nbsp; Immediate Joiner &nbsp;·&nbsp; Kolkata / Delhi / Remote</span>
     <span class="avail-text avail-mobile">🟢 Open to Work · Data Analyst ...</span>
     <button class="avail-close" id="availClose">✕</button>
   </div>
@@ -83,7 +83,7 @@
       <a href="#dashboard" class="mob-link">Live Demo</a>
       <a href="#contact" class="mob-link">Contact</a>
       <a href="#sendmessage" class="mob-link">Message</a>
-      <a href="resume/Ayush_Singh_Resume.pdf" download class="mob-link cta-mob">Download Resume</a>
+      <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst.pdf" download class="mob-link cta-mob">Download Resume</a>
     </div>
   </nav>
 
@@ -97,12 +97,12 @@
         <span class="pulse-dot"></span>
         Open to Opportunities · Immediate Joiner
       </div>
-      <h1 class="hero-name reveal delay-1">Ayush<br /><span class="accent-text">Singh</span></h1>
+      <h1 class="hero-name reveal delay-1">Anirban<br /><span class="accent-text">Mahanta</span></h1>
       <p class="hero-title reveal delay-2">
         <!-- ✅ FIX #7: .mono starts empty — typewriter fills it, no more blank-jump -->
         <span class="mono"></span> &mdash; Power BI · Advanced Excel · SQL · Business Analytics
       </p>
-      <p class="hero-location reveal delay-3">📍 Lucknow, Uttar Pradesh, India</p>
+      <p class="hero-location reveal delay-3">📍 Kolkata, West Bengal, India</p>
       <div class="hero-stats reveal delay-3">
         <div class="stat-item">
           <span class="stat-num">7</span>
@@ -126,7 +126,7 @@
       </div>
       <div class="hero-actions reveal delay-4">
         <a href="#projects" class="btn-primary">View Projects</a>
-        <a href="resume/Ayush_Singh_Resume.pdf" download class="btn-secondary">Download Resume</a>
+        <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst.pdf" download class="btn-secondary">Download Resume</a>
         <a href="#contact" class="btn-ghost">Contact Me</a>
       </div>
     </div>
@@ -143,14 +143,14 @@
       <div class="about-grid">
         <div class="about-photo-wrap reveal">
           <div class="photo-placeholder">
-            <img src="assets/images/profile-photo.jpeg" alt="Ayush Singh" />
+            <img src="assets/images/profile-photo.jpeg" alt="Anirban Mahanta" />
           </div>
           <div class="photo-accent"></div>
         </div>
         <div class="about-text reveal delay-1">
           <h2 class="section-title">Turning Raw Data into<br /><span class="accent-text">Business Decisions</span></h2>
           <p class="about-bio">
-            I am a Data Analyst based in Lucknow, India, passionate about turning raw data into clear, actionable business insights. I specialize in building executive-level dashboards and performance trackers using <strong>Power BI</strong> and <strong>Advanced Excel</strong>.
+            I am a Data Analyst based in Kolkata, India, passionate about turning raw data into clear, actionable business insights. I specialize in building executive-level dashboards and performance trackers using <strong>Power BI</strong> and <strong>Advanced Excel</strong>.
           </p>
           <p class="about-bio">
             I have built <strong>7 end-to-end analytics projects</strong> across e-commerce, FMCG, food delivery, streaming, retail, and banking domains — working with datasets ranging from 8,500 to 100,000+ records. Currently upskilling in <strong>SQL and Python</strong> through the PW Skills Data Analytics with GenAI program.
@@ -844,8 +844,8 @@
   <footer id="footer">
     <div class="footer-inner">
       <div class="footer-logo">AS<span class="dot">.</span></div>
-      <p class="footer-text">Ayush Singh · Data Analyst · Lucknow, India</p>
-      <p class="footer-copy">Built with HTML · CSS · JavaScript &nbsp;|&nbsp; © <span id="footerYear">2026</span> Ayush Singh</p>
+      <p class="footer-text">Anirban Mahanta · Data Analyst · Lucknow, India</p>
+      <p class="footer-copy">Built with HTML · CSS · JavaScript &nbsp;|&nbsp; © <span id="footerYear">2026</span> Anirban Mahanta</p>
       
     </div>
   </footer>
