@@ -56,7 +56,7 @@
   <!-- ===== NAVIGATION ===== -->
   <nav id="navbar">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">AS<span class="dot">.</span></a>
+      <a href="#hero" class="nav-logo">AM<span class="dot">.</span></a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
