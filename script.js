@@ -1,5 +1,5 @@
 /* ================================================
-   AYUSH SINGH — Portfolio script.js
+   Anirban Mahanta — Portfolio script.js
    ALL BUGS FIXED — Clean Final Version
    ================================================ */
 
@@ -584,18 +584,18 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
 /* ====== 19. AI CHATBOT ====== */
 (function() {
   var kb = {
-    name: "Ayush Singh",
+    name: "Anirban Mahanta",
     role: "Data Analyst",
-    location: "Lucknow, Uttar Pradesh, India",
-    email: "as764994@gmail.com",
-    github: "github.com/as764994-droid",
-    linkedin: "linkedin.com/in/ayush-singh-finance",
+    location: "Kolkata, West Bengal, India",
+    email: "anirbanmahanta.2008@gmail.com",
+    github: "github.com/anirbanmahanta",
+    linkedin: "linkedin.com/in/anirbanmahanta",
     availability: "Immediate joiner — available right now",
-    education: "B.Com in Accounting & Finance from University of Lucknow (2020–2024). Currently enrolled in PW Skills Data Analytics with GenAI program — learning SQL, Python, Power BI, Tableau, and Machine Learning.",
-    about: "Ayush is a Data Analyst from Lucknow, India who specializes in turning raw data into clear business decisions. He has built 7 end-to-end analytics projects across 6 industries — working with datasets ranging from 8,500 to 100,000+ records. He is passionate about building executive-level dashboards and performance trackers.",
+    education: "B.Arts in General from University of Burdwan (2008–2011). Currently enrolled in PW Skills Data Analytics with AI program — learning SQL, Python, Power BI, Tableau, ETL and Statistics.",
+    about: "Anirban is a Data Analyst from Kolkata, India who specializes in turning raw data into clear business decisions. He has built 7 end-to-end analytics projects across 6 industries — working with datasets ranging from 8,500 to 100,000+ records. He is passionate about building executive-level dashboards and performance trackers.",
     experience: "7 real-world end-to-end projects across e-commerce, FMCG, food delivery, streaming, retail, and banking/financial services. Analyzed 100,000+ records, tracked ₹311M+ in revenue, built 23+ DAX measures, and delivered a 4-phase credit risk analytical pipeline.",
     tools: {
-      powerbi: "Expert level. Ayush builds production-grade Power BI dashboards with DAX, Power Query, Row-Level Security (RLS), What-If Parameters, Drill-Through, Bookmarks, Custom Tooltips, and Custom Themes. He has built 5-page dashboards designed for VP-level stakeholders.",
+      powerbi: "Expert level. Anirban builds production-grade Power BI dashboards with DAX, Power Query, Row-Level Security (RLS), What-If Parameters, Drill-Through, Bookmarks, Custom Tooltips, and Custom Themes. He has built 5-page dashboards designed for VP-level stakeholders.",
       excel: "Expert level. Advanced Excel including Pivot Tables, PivotCharts, Power Query (150+ lines of M code), Slicers, GETPIVOTDATA, and full dashboard automation. Has eliminated 100% of manual reporting for a national distributor.",
       sql: "Intermediate level. MySQL — Window Functions (RANK, ROW_NUMBER), CTEs, Subqueries, Data Cleaning, and full EDA pipelines. Built a complete retail SQL analytics project from scratch.",
       python: "Currently learning Python through the PW Skills program. Comfortable with fundamentals.",
@@ -611,48 +611,48 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
       sql: "Retail Sales Analysis SQL Project — end-to-end MySQL project from database setup and data cleaning to 10 business queries. Used RANK() window function for best-selling month, CTEs for shift analysis, and built a full EDA pipeline — all without any BI tool.",
       creditrisk: "Credit Risk & Loan Default Analysis — full end-to-end capstone project (Excel → SQL → Statistics → Power BI) on 32,407 loan records. Answered 12 stakeholder questions for CRO, CFO, Loan Committee, and Data Analytics Team. Key findings: 21.87% overall default rate, Grade G loans default at 98.44%, loan-to-income ratio is the #1 predictor (Pearson +0.38), and ₹77M in portfolio is at risk. Built a 5-page Power BI dashboard with 15 DAX measures, What-If LTI simulator, Drill-Through, Decomposition Tree, and a custom Credit Sentinel dark finance theme.",
     },
-    strengths: "Ayush's biggest strengths are: (1) Business thinking — he doesn't just build charts, he identifies actionable insights like the 32% Q3 Swiggy decline, counter-intuitive Tier 3 dominance in Blinkit, and a ₹77M at-risk portfolio in his Credit Risk capstone. (2) Technical depth — 23+ DAX measures, Power Query automation, SQL window functions, and Pearson correlation statistical analysis. (3) Stakeholder focus — his dashboards are designed for CRO, CFO, and VP-level personas, not just data teams. (4) Speed — immediate joiner, 7 projects already built.",
-    whyhire: "Ayush brings 3 things most freshers don't: real project depth (not toy datasets), business insight (not just charts), and immediate availability. His projects have tracked ₹311M+ in revenue, analyzed 100K+ records, eliminated manual reporting entirely, and quantified ₹77M in credit portfolio risk. He thinks like a business analyst, not just a data technician.",
+    strengths: "Anirban's biggest strengths are: (1) Business thinking — he doesn't just build charts, he identifies actionable insights like the 32% Q3 Swiggy decline, counter-intuitive Tier 3 dominance in Blinkit, and a ₹77M at-risk portfolio in his Credit Risk capstone. (2) Technical depth — 23+ DAX measures, Power Query automation, SQL window functions, and Pearson correlation statistical analysis. (3) Stakeholder focus — his dashboards are designed for CRO, CFO, and VP-level personas, not just data teams. (4) Speed — immediate joiner, 7 projects already built.",
+    whyhire: "Anirban brings 3 things most freshers don't: real project depth (not toy datasets), business insight (not just charts), and immediate availability. His projects have tracked ₹311M+ in revenue, analyzed 100K+ records, eliminated manual reporting entirely, and quantified ₹77M in credit portfolio risk. He thinks like a business analyst, not just a data technician.",
     certifications: "Power BI Workshop (OfficeMaster, Nov 2025), Advanced Excel Certification (OneRoadmap — verified), AI Tools Workshop (be10x, Nov 2025), Data Analyst Certification (OneRoadmap — verified), Data Analytics Completion Certificate (Skillsetmaster, Jan 2026), SQL (Basic) Certificate (HackerRank — verified), SQL (Intermediate) Certificate (HackerRank — verified).",
-    salary: "Ayush is open to discussing compensation based on the role and company. He is primarily focused on finding the right opportunity to contribute and grow.",
+    salary: "Anirban is open to discussing compensation based on the role and company. He is primarily focused on finding the right opportunity to contribute and grow.",
     notice: "Immediate joiner. Zero notice period. Can start right away.",
-    domain: "Ayush has worked across 6 industries: Streaming (Netflix), Grocery Retail (Blinkit), FMCG Distribution, Food Delivery (Swiggy), E-commerce Retail (Vrinda Store), SQL Retail Analytics, and Banking & Financial Services (Credit Risk & Loan Default Analysis).",
+    domain: "Anirban has worked across 6 industries: Streaming (Netflix), Grocery Retail (Blinkit), FMCG Distribution, Food Delivery (Swiggy), E-commerce Retail (Vrinda Store), SQL Retail Analytics, and Banking & Financial Services (Credit Risk & Loan Default Analysis).",
   };
 
   function getResponse(input) {
     var q = input.toLowerCase().trim();
 
-    if (/who is ayush|tell me about ayush|about ayush|about him|who is he|introduce|tell me about yourself|describe ayush/.test(q))
+    if (/who is Anirban|tell me about Anirban|about Anirban|about him|who is he|introduce|tell me about yourself|describe Anirban/.test(q))
       return '👋 ' + kb.about + '\n\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n📁 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n📍 Location: Lucknow · Open to Remote & Relocation\n⚡ Availability: Immediate Joiner\n\n📧 ' + kb.email + '\n💼 ' + kb.linkedin;
 
     if (/hiring|we.*looking|open.*position|job opening|vacancy|team.*need|recruiting|talent|candidate|interview|onboard|join.*team/.test(q))
-      return '👔 Sounds like you\'re hiring! Here\'s Ayush\'s quick recruiter summary:\n\n🎯 Role: Data Analyst / Business Analyst\n📍 Location: Lucknow — open to Remote & Relocation\n⚡ Availability: Immediate Joiner — Zero notice period\n📊 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n\n📧 Reach him at: as764994@gmail.com\n💼 LinkedIn: linkedin.com/in/ayush-singh-finance\n\nHe\'s ready to contribute from Day 1! 🚀';
+      return '👔 Sounds like you\'re hiring! Here\'s Anirban\'s quick recruiter summary:\n\n🎯 Role: Data Analyst / Business Analyst\n📍 Location: Lucknow — open to Remote & Relocation\n⚡ Availability: Immediate Joiner — Zero notice period\n📊 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n\n📧 Reach him at: as764994@gmail.com\n💼 LinkedIn: linkedin.com/in/Anirban-singh-finance\n\nHe\'s ready to contribute from Day 1! 🚀';
 
     if (/surprise|random|fun fact|impress me|wow me/.test(q)) {
       var facts = [
-        '🎲 In Ayush\'s Swiggy project, Lucknow ranked #2 nationally — beating Mumbai and Delhi in total order volume. A Tier-2 city outperforming major metros!',
-        '🎲 Ayush\'s Credit Risk capstone found that Grade G loans default at 98.44% — nearly every single one. Grade A defaults at only 9.96%. A 10x difference!',
+        '🎲 In Anirban\'s Swiggy project, Lucknow ranked #2 nationally — beating Mumbai and Delhi in total order volume. A Tier-2 city outperforming major metros!',
+        '🎲 Anirban\'s Credit Risk capstone found that Grade G loans default at 98.44% — nearly every single one. Grade A defaults at only 9.96%. A 10x difference!',
         '🎲 In the Blinkit dashboard, Tier 3 locations generated MORE revenue than Tier 1 cities — completely counter-intuitive and discovered through data!',
-        '🎲 Ayush wrote ~150 lines of Power Query M code for his National Distributor project — eliminating 100% of manual monthly reporting.',
+        '🎲 Anirban wrote ~150 lines of Power Query M code for his National Distributor project — eliminating 100% of manual monthly reporting.',
         '🎲 His Netflix dashboard has Row-Level Security so the US, India, and UK teams each see only their own regional data — a real enterprise Power BI feature!',
         '🎲 The Credit Risk What-If simulator shows that when loan-to-income ratio crosses 30%, the default rate jumps from 20.98% to 61.93% — almost 3x higher!',
-        '🎲 Ayush tracked ₹311M+ in total revenue across his 7 projects. That\'s over 3.7 Crore rupees of business data analyzed!',
+        '🎲 Anirban tracked ₹311M+ in total revenue across his 7 projects. That\'s over 3.7 Crore rupees of business data analyzed!',
       ];
       return facts[Math.floor(Math.random() * facts.length)];
     }
 
     if (/^(hi|hello|hey|good morning|good afternoon|good evening|namaste|hii|helo)/.test(q))
-      return 'Hello! 👋 I\'m Ayush\'s AI assistant. I can tell you everything about his skills, projects, experience, and availability. What would you like to know?';
+      return 'Hello! 👋 I\'m Anirban\'s AI assistant. I can tell you everything about his skills, projects, experience, and availability. What would you like to know?';
 
     if (/who are you|what are you|are you ai|are you real|are you human/.test(q))
-      return 'I\'m an AI assistant built specifically for Ayush Singh\'s portfolio. I know everything about his skills, projects, certifications, and career goals. Ask me anything! 🤖';
+      return 'I\'m an AI assistant built specifically for Anirban Singh\'s portfolio. I know everything about his skills, projects, certifications, and career goals. Ask me anything! 🤖';
 
     // ✅ FIX #2: Dead code removed — only one return for resume condition
     if (/resume|cv|download|portfolio pdf/.test(q))
       return '📄 __RESUME_CARD__';
 
     if (/location|where.*based|where.*from|where.*live|city/.test(q))
-      return 'Ayush is based in ' + kb.location + '. He is open to remote, hybrid, or relocation opportunities.';
+      return 'Anirban is based in ' + kb.location + '. He is open to remote, hybrid, or relocation opportunities.';
 
     if (/available|join|notice period|when can|start|immediate/.test(q))
       return '✅ ' + kb.availability + '. No notice period — he can start on Day 1.';
@@ -662,13 +662,13 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
 
     if (/power bi|powerbi/.test(q)) return '📊 ' + kb.tools.powerbi;
     if (/excel|pivot|spreadsheet/.test(q)) return '📗 ' + kb.tools.excel;
-    if (/hackerrank/.test(q)) return '🗄️ Ayush has earned 2 verified HackerRank SQL certifications:\n\n✅ SQL (Basic) Certificate — HackerRank\n✅ SQL (Intermediate) Certificate — HackerRank\n\nBoth are verifiable directly on HackerRank. He also built a complete end-to-end SQL retail analytics project using MySQL with window functions, CTEs, and subqueries!';
+    if (/hackerrank/.test(q)) return '🗄️ Anirban has earned 2 verified HackerRank SQL certifications:\n\n✅ SQL (Basic) Certificate — HackerRank\n✅ SQL (Intermediate) Certificate — HackerRank\n\nBoth are verifiable directly on HackerRank. He also built a complete end-to-end SQL retail analytics project using MySQL with window functions, CTEs, and subqueries!';
     if (/sql|mysql|database|query|queries/.test(q)) return '🗄️ ' + kb.tools.sql;
     if (/python/.test(q)) return '🐍 ' + kb.tools.python;
     if (/dax|power query|m code/.test(q)) return '⚡ ' + kb.tools.dax;
 
     if (/skill|tool|tech|know|expertise|proficient|tech stack/.test(q))
-      return '🛠️ Here\'s Ayush\'s technical stack:\n\n📊 Power BI — Expert (DAX, Power Query, RLS, What-If)\n📗 Advanced Excel — Expert (Pivot Tables, Power Query, Automation)\n🗄️ SQL/MySQL — Intermediate (Window Functions, CTEs, EDA)\n🐍 Python — Learning\n📈 Tableau — Learning\n\nHis strongest tools are Power BI and Advanced Excel.';
+      return '🛠️ Here\'s Anirban\'s technical stack:\n\n📊 Power BI — Expert (DAX, Power Query, RLS, What-If)\n📗 Advanced Excel — Expert (Pivot Tables, Power Query, Automation)\n🗄️ SQL/MySQL — Intermediate (Window Functions, CTEs, EDA)\n🐍 Python — Learning\n📈 Tableau — Learning\n\nHis strongest tools are Power BI and Advanced Excel.';
 
     if (/compare|vs|versus/.test(q)) {
       if (/netflix.*credit|credit.*netflix/.test(q))
@@ -687,43 +687,43 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
     if (/credit|loan|default|risk|capstone|banking|financial|lti|grade.*loan|loan.*grade/.test(q)) return '🏦 ' + kb.projects.creditrisk;
 
     if (/project|portfolio|work|built|created/.test(q))
-      return '📁 Ayush has built 7 end-to-end projects:\n\n🎬 Netflix Content Strategy Dashboard (Power BI)\n🛒 Blinkit Grocery Sales Dashboard (Power BI)\n📦 National Distributor Dashboard (Excel)\n🍔 Swiggy Sales & Market Analysis (Excel)\n🛍️ Vrinda Store Annual Sales Report (Excel)\n🗄️ Retail Sales SQL Project (MySQL)\n🏦 Credit Risk & Loan Default Analysis (Excel + SQL + Power BI)\n\nWhich one would you like to know more about?';
+      return '📁 Anirban has built 7 end-to-end projects:\n\n🎬 Netflix Content Strategy Dashboard (Power BI)\n🛒 Blinkit Grocery Sales Dashboard (Power BI)\n📦 National Distributor Dashboard (Excel)\n🍔 Swiggy Sales & Market Analysis (Excel)\n🛍️ Vrinda Store Annual Sales Report (Excel)\n🗄️ Retail Sales SQL Project (MySQL)\n🏦 Credit Risk & Loan Default Analysis (Excel + SQL + Power BI)\n\nWhich one would you like to know more about?';
 
     if (/best project|favourite project|most complex|most impressive/.test(q))
-      return '🏆 Ayush\'s most complex project is his Credit Risk & Loan Default Analysis Capstone — a full 4-phase pipeline (Excel → SQL → Statistics → Power BI) built on 32,407 loan records for CRO, CFO, and Loan Committee personas. His second most complex is the Netflix Dashboard with 23+ DAX measures and Row-Level Security. Both are available on his GitHub!';
+      return '🏆 Anirban\'s most complex project is his Credit Risk & Loan Default Analysis Capstone — a full 4-phase pipeline (Excel → SQL → Statistics → Power BI) built on 32,407 loan records for CRO, CFO, and Loan Committee personas. His second most complex is the Netflix Dashboard with 23+ DAX measures and Row-Level Security. Both are available on his GitHub!';
 
     if (/experience|years|how long|how many/.test(q))
-      return '📊 ' + kb.experience + '\n\nWhile Ayush is a fresher in terms of formal employment, his project depth rivals 1–2 years of real work experience.';
+      return '📊 ' + kb.experience + '\n\nWhile Anirban is a fresher in terms of formal employment, his project depth rivals 1–2 years of real work experience.';
 
     if (/certif|certificat|hackerrank|sql cert/.test(q))
-      return '📜 Ayush has 7 verified certifications:\n\n📊 Power BI Workshop — OfficeMaster (Nov 2025)\n📗 Advanced Excel Certification — OneRoadmap ✓ Verified\n🤖 AI Tools Workshop — be10x (Nov 2025)\n📈 Data Analyst Certification — OneRoadmap ✓ Verified\n🎓 Data Analytics Completion — Skillsetmaster (Jan 2026)\n🗄️ SQL (Basic) Certificate — HackerRank ✓ Verified\n🗄️ SQL (Intermediate) Certificate — HackerRank ✓ Verified\n\nAll certificates are clickable and viewable directly on the portfolio!';
+      return '📜 Anirban has 7 verified certifications:\n\n📊 Power BI Workshop — OfficeMaster (Nov 2025)\n📗 Advanced Excel Certification — OneRoadmap ✓ Verified\n🤖 AI Tools Workshop — be10x (Nov 2025)\n📈 Data Analyst Certification — OneRoadmap ✓ Verified\n🎓 Data Analytics Completion — Skillsetmaster (Jan 2026)\n🗄️ SQL (Basic) Certificate — HackerRank ✓ Verified\n🗄️ SQL (Intermediate) Certificate — HackerRank ✓ Verified\n\nAll certificates are clickable and viewable directly on the portfolio!';
 
     if (/strength|strong|good at|best at|special/.test(q)) return '💪 ' + kb.strengths;
 
-    if (/what makes (you|him|ayush) different|why not other|stand out|unique|unlike other|better than other/.test(q))
-      return '🌟 Here\'s what makes Ayush genuinely different from other freshers:\n\nMost freshers submit toy datasets with 500 rows and call it a project. Ayush built a 4-phase analytical pipeline on 32,407 real loan records.\n\nMost freshers make charts. Ayush finds the insight that changes a decision — like discovering Lucknow ranks #2 nationally in Swiggy.\n\nMost freshers know one tool. Ayush delivers Excel → SQL → Statistics → Power BI in a single project.\n\nMost freshers need onboarding time. Ayush is an immediate joiner with zero notice period and 7 real projects already shipped. 🎯';
+    if (/what makes (you|him|Anirban) different|why not other|stand out|unique|unlike other|better than other/.test(q))
+      return '🌟 Here\'s what makes Anirban genuinely different from other freshers:\n\nMost freshers submit toy datasets with 500 rows and call it a project. Anirban built a 4-phase analytical pipeline on 32,407 real loan records.\n\nMost freshers make charts. Anirban finds the insight that changes a decision — like discovering Lucknow ranks #2 nationally in Swiggy.\n\nMost freshers know one tool. Anirban delivers Excel → SQL → Statistics → Power BI in a single project.\n\nMost freshers need onboarding time. Anirban is an immediate joiner with zero notice period and 7 real projects already shipped. 🎯';
 
     if (/why hire|why should|hire him|recommend|suited|right candidate/.test(q)) return '🎯 ' + kb.whyhire;
     if (/salary|ctc|compensation|pay|package/.test(q)) return '💰 ' + kb.salary;
     if (/domain|industry|sector|field/.test(q)) return '🏢 ' + kb.domain;
 
     if (/contact|email|reach|hire|connect|linkedin|github/.test(q))
-      return '📬 You can reach Ayush directly:\n\n📧 Email: ' + kb.email + '\n💼 LinkedIn: ' + kb.linkedin + '\n🐙 GitHub: ' + kb.github + '\n\nHe responds quickly and is actively looking for opportunities!';
+      return '📬 You can reach Anirban directly:\n\n📧 Email: ' + kb.email + '\n💼 LinkedIn: ' + kb.linkedin + '\n🐙 GitHub: ' + kb.github + '\n\nHe responds quickly and is actively looking for opportunities!';
 
-    if (/who is ayush|tell me about ayush|about ayush|about him|who is he|introduce|tell me about yourself|describe ayush/.test(q))
+    if (/who is Anirban|tell me about Anirban|about Anirban|about him|who is he|introduce|tell me about yourself|describe Anirban/.test(q))
       return '👋 ' + kb.about + '\n\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n📁 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n📍 Location: Lucknow · Open to Remote & Relocation\n⚡ Availability: Immediate Joiner\n\n📧 ' + kb.email + '\n💼 ' + kb.linkedin;
 
     if (/thank|thanks|great|awesome|nice|good|helpful|perfect/.test(q))
-      return 'You\'re welcome! 😊 Feel free to ask anything else about Ayush. You can also scroll through the portfolio to see his live projects and certifications!';
+      return 'You\'re welcome! 😊 Feel free to ask anything else about Anirban. You can also scroll through the portfolio to see his live projects and certifications!';
 
     if (/bye|goodbye|see you|that's all|that is all/.test(q))
-      return 'Thanks for visiting Ayush\'s portfolio! 🙌 Feel free to reach out to him directly at ' + kb.email + '. Have a great day!';
+      return 'Thanks for visiting Anirban\'s portfolio! 🙌 Feel free to reach out to him directly at ' + kb.email + '. Have a great day!';
 
-    return 'Great question! I\'d suggest reaching out to Ayush directly for more details:\n\n📧 ' + kb.email + '\n💼 ' + kb.linkedin + '\n\nOr you can ask me about his skills, projects, education, availability, or certifications!';
+    return 'Great question! I\'d suggest reaching out to Anirban directly for more details:\n\n📧 ' + kb.email + '\n💼 ' + kb.linkedin + '\n\nOr you can ask me about his skills, projects, education, availability, or certifications!';
   }
 
   var suggestions = [
-    "Tell me about Ayush",
+    "Tell me about Anirban",
     "What are his skills?",
     "Tell me about the Netflix project",
     "Is he available to join?",
@@ -781,7 +781,7 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
 
   var win = document.createElement('div');
   win.id = 'chat-window';
-  win.innerHTML = '<div id="chat-header"><div class="chat-avatar">🤖</div><div class="chat-header-info"><div class="chat-header-name">Ayush\'s AI Assistant</div><div class="chat-header-status"><span class="chat-status-dot"></span>Online — Ask me anything</div></div><button id="chat-close">✕</button></div><div id="chat-messages"></div><div id="chat-suggestions"></div><div id="chat-input-row"><input id="chat-input" type="text" placeholder="Ask about skills, projects, availability..." maxlength="200" /><button id="chat-send">➤</button></div>';
+  win.innerHTML = '<div id="chat-header"><div class="chat-avatar">🤖</div><div class="chat-header-info"><div class="chat-header-name">Anirban\'s AI Assistant</div><div class="chat-header-status"><span class="chat-status-dot"></span>Online — Ask me anything</div></div><button id="chat-close">✕</button></div><div id="chat-messages"></div><div id="chat-suggestions"></div><div id="chat-input-row"><input id="chat-input" type="text" placeholder="Ask about skills, projects, availability..." maxlength="200" /><button id="chat-send">➤</button></div>';
   document.body.appendChild(win);
 
   var msgs = document.getElementById('chat-messages');
@@ -825,7 +825,7 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
     var bubble = document.createElement('div');
     bubble.className = 'msg-bubble';
     if (text === '📄 __RESUME_CARD__') {
-      bubble.innerHTML = '<div style="font-size:0.85rem;font-weight:600;color:#e8edf7;margin-bottom:10px;">📄 Ayush\'s Resume</div><div style="font-size:0.75rem;color:#8a96b0;margin-bottom:12px;">Data Analyst · Power BI · Excel · SQL</div><a href="resume/Ayush_Singh_Resume.pdf" download style="display:flex;align-items:center;justify-content:center;gap:8px;background:#00d4ff;color:#050a15;font-weight:700;font-size:0.82rem;padding:10px 16px;border-radius:8px;text-decoration:none;">⬇️ Download Resume PDF</a>';
+      bubble.innerHTML = '<div style="font-size:0.85rem;font-weight:600;color:#e8edf7;margin-bottom:10px;">📄 Anirban\'s Resume</div><div style="font-size:0.75rem;color:#8a96b0;margin-bottom:12px;">Data Analyst · Power BI · Excel · SQL</div><a href="resume/Anirban_Singh_Resume.pdf" download style="display:flex;align-items:center;justify-content:center;gap:8px;background:#00d4ff;color:#050a15;font-weight:700;font-size:0.82rem;padding:10px 16px;border-radius:8px;text-decoration:none;">⬇️ Download Resume PDF</a>';
     } else {
       bubble.textContent = text;
     }
@@ -912,7 +912,7 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
     document.getElementById('chat-badge').style.display = 'none';
     if (msgs.children.length === 0) {
       setTimeout(function() {
-        addMsg("👋 Hi! I'm Ayush's AI assistant. I know everything about his skills, projects, and career. What would you like to know?", 'bot');
+        addMsg("👋 Hi! I'm Anirban's AI assistant. I know everything about his skills, projects, and career. What would you like to know?", 'bot');
         buildSuggestions();
       }, 300);
     }
@@ -986,7 +986,7 @@ document.addEventListener('keydown', function(e) {
   if (!btn) return;
   // ✅ FIX #4: Theme is pre-applied by inline script in <head> before paint.
   // This JS block just syncs the button emoji and handles clicks.
-  var saved = localStorage.getItem('ayush_theme');
+  var saved = localStorage.getItem('Anirban_theme');
   if (saved === 'light') {
     document.body.classList.add('light-mode');
     btn.textContent = '☀️';
@@ -1000,7 +1000,7 @@ document.addEventListener('keydown', function(e) {
     document.body.classList.toggle('light-mode');
     var isLight = document.body.classList.contains('light-mode');
     btn.textContent = isLight ? '☀️' : '🌙';
-    localStorage.setItem('ayush_theme', isLight ? 'light' : 'dark');
+    localStorage.setItem('Anirban_theme', isLight ? 'light' : 'dark');
 
     var radarCanvas = document.querySelector('#skills canvas');
     if (radarCanvas) {
@@ -1011,7 +1011,7 @@ document.addEventListener('keydown', function(e) {
 
 /* ====== COPY EMAIL BUTTON ====== */
 window.copyEmail = function() {
-  var email = 'as764994@gmail.com';
+  var email = 'anirbanmahanta.2008@gmail.com';
   var btn = document.getElementById('copyEmailBtn');
 
   if (navigator.clipboard && window.isSecureContext) {
