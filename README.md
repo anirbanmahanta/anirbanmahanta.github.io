@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@
   <meta name="description" content="Anirban Mahanta — Data Analyst. Power BI, SQL, Advanced Excel. 7 end-to-end projects across 6 industries." />
   <meta property="og:title" content="Anirban Mahanta — Data Analyst Portfolio" />
   <meta property="og:description" content="7 real-world analytics projects across 6 industries. Power BI · Excel · SQL · DAX." />
-  <meta property="og:image" content="assets/images/profile-photo.jpeg" />
+  <meta property="og:image" content="assets/images/profile-photo.jpeg.jpeg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Anirban Mahanta — Data Analyst Portfolio" />
@@ -28,7 +27,7 @@
   <!-- ✅ FIX #4: Theme applied BEFORE paint — no more light/dark flicker -->
   <script>
     (function() {
-      var saved = localStorage.getItem('ayush_theme');
+      var saved = localStorage.getItem('Anirban_theme');
       if (saved === 'light') {
         document.documentElement.classList.add('pre-light');
       }
@@ -49,7 +48,7 @@
   <!-- ===== AVAILABILITY BANNER ===== -->
   <div id="availability-banner">
     <span class="avail-dot"></span>
-    <span class="avail-text avail-desktop">🟢 Open to Work &nbsp;·&nbsp; Data Analyst / Business Analyst &nbsp;·&nbsp; Immediate Joiner &nbsp;·&nbsp; Kolkata / Delhi / Remote</span>
+    <span class="avail-text avail-desktop">🟢 Open to Work &nbsp;·&nbsp; Data Analyst / Business Analyst &nbsp;·&nbsp; Immediate Joiner &nbsp;·&nbsp; Kolkata / Remote</span>
     <span class="avail-text avail-mobile">🟢 Open to Work · Data Analyst ...</span>
     <button class="avail-close" id="availClose">✕</button>
   </div>
@@ -69,7 +68,7 @@
         <li><a href="#sendmessage">Message</a></li>
       </ul>
       <button id="themeToggle" class="theme-toggle" title="Toggle light/dark mode">🌙</button>
-      <a href="resume/Ayush_Singh_Resume.pdf" download class="nav-cta">Download Resume</a>
+      <a href="resume/Anirban_Singh_Resume.pdf" download class="nav-cta">Download Resume</a>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -83,7 +82,7 @@
       <a href="#dashboard" class="mob-link">Live Demo</a>
       <a href="#contact" class="mob-link">Contact</a>
       <a href="#sendmessage" class="mob-link">Message</a>
-      <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst.pdf" download class="mob-link cta-mob">Download Resume</a>
+      <a href="resume/Anirban_Singh_Resume.pdf" download class="mob-link cta-mob">Download Resume</a>
     </div>
   </nav>
 
@@ -97,7 +96,7 @@
         <span class="pulse-dot"></span>
         Open to Opportunities · Immediate Joiner
       </div>
-      <h1 class="hero-name reveal delay-1">Anirban<br /><span class="accent-text">Mahanta</span></h1>
+      <h1 class="hero-name reveal delay-1">Anirban<br /><span class="accent-text">Singh</span></h1>
       <p class="hero-title reveal delay-2">
         <!-- ✅ FIX #7: .mono starts empty — typewriter fills it, no more blank-jump -->
         <span class="mono"></span> &mdash; Power BI · Advanced Excel · SQL · Business Analytics
@@ -126,7 +125,7 @@
       </div>
       <div class="hero-actions reveal delay-4">
         <a href="#projects" class="btn-primary">View Projects</a>
-        <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst.pdf" download class="btn-secondary">Download Resume</a>
+        <a href="resume/Anirban_Singh_Resume.pdf" download class="btn-secondary">Download Resume</a>
         <a href="#contact" class="btn-ghost">Contact Me</a>
       </div>
     </div>
@@ -388,7 +387,7 @@
           </div>
           <div class="project-highlights">
             <div class="highlight-item">🚨 32% Q3 revenue decline identified and flagged</div>
-            <div class="highlight-item">🏙️ Lucknow ranked #2 nationally (Tier-2 beating metros)</div>
+            <div class="highlight-item">🏙️ Kolkata ranked #2 nationally (Tier-2 beating metros)</div>
             <div class="highlight-item">🥗 Vegetarian = 65% of total revenue</div>
             <div class="highlight-item">📅 Fri–Sun = peak ordering days identified</div>
           </div>
@@ -535,7 +534,7 @@
             <div class="edu-year">2020 – 2024</div>
             <div class="edu-details">
               <div class="edu-degree">B.Com — Accounting &amp; Finance</div>
-              <div class="edu-inst">University of Lucknow</div>
+              <div class="edu-inst">University of Kolkata</div>
               <div class="edu-desc">Core coursework in financial accounting, business analytics, and economics.</div>
             </div>
           </div>
@@ -629,16 +628,16 @@
         <div class="tl-item reveal" data-side="left">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2020</div>
+            <div class="tl-date">2008</div>
             <div class="tl-icon">🎓</div>
-            <div class="tl-title">Started B.Com</div>
-            <div class="tl-desc">Enrolled in B.Com Accounting &amp; Finance at University of Lucknow. Discovered passion for numbers and financial data.</div>
+            <div class="tl-title">Started B.Arts</div>
+            <div class="tl-desc">Enrolled in B.Com General at University of Burdwan.</div>
           </div>
         </div>
         <div class="tl-item reveal delay-1" data-side="right">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2022</div>
+            <div class="tl-date">2025</div>
             <div class="tl-icon">📗</div>
             <div class="tl-title">Mastered Advanced Excel</div>
             <div class="tl-desc">Learned Pivot Tables, Power Query, GETPIVOTDATA, and dashboard design. Built first analytics project — National Distributor Dashboard with 100K+ records.</div>
@@ -648,7 +647,7 @@
         <div class="tl-item reveal delay-2" data-side="left">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2023</div>
+            <div class="tl-date">2026</div>
             <div class="tl-icon">📊</div>
             <div class="tl-title">Entered Power BI</div>
             <div class="tl-desc">Completed Power BI Workshop. Started building production-grade dashboards with DAX, Power Query, Row-Level Security, and What-If Parameters.</div>
@@ -658,11 +657,11 @@
         <div class="tl-item reveal delay-1" data-side="right">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2024</div>
+            <div class="tl-date">2025</div>
             <div class="tl-icon">🏆</div>
-            <div class="tl-title">Completed B.Com · Started Upskilling</div>
-            <div class="tl-desc">Graduated from University of Lucknow. Joined PW Skills Data Analytics with GenAI program. Built Netflix Dashboard — most complex project to date.</div>
-            <div class="tl-tag">SQL · Python · Tableau · GenAI</div>
+            <div class="tl-title">Started Upskilling</div>
+            <div class="tl-desc">Joined PW Skills Data Analytics with GenAI program. Built Netflix Dashboard — most complex project to date.</div>
+            <div class="tl-tag">SQL · Python · Tableau · Power BI · AI</div>
           </div>
         </div>
         <div class="tl-item reveal delay-2" data-side="left">
@@ -753,25 +752,25 @@
       <h2 class="section-title centered reveal">Let's Work Together</h2>
       <p class="section-sub reveal">Open to Data Analyst &amp; Business Analyst roles. Immediate joiner.</p>
       <div class="contact-grid reveal">
-        <a href="mailto:as764994@gmail.com" class="contact-card" style="position:relative;">
+        <a href="mailto:anirbanmahanta.2008@gmail.com" class="contact-card" style="position:relative;">
           <div class="contact-icon">✉️</div>
           <div class="contact-label">Email</div>
-          <div class="contact-value">as764994@gmail.com</div>
+          <div class="contact-value">anirbanmahanta.2008@gmail.com</div>
           <button class="copy-email-btn" id="copyEmailBtn" onclick="event.preventDefault();event.stopPropagation();copyEmail();" title="Copy email">📋 Copy</button>
         </a>
-        <a href="https://linkedin.com/in/ayush-singh-finance" target="_blank" class="contact-card">
+        <a href="https://linkedin.com/in/anirbanmahanta" target="_blank" class="contact-card">
           <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
           <div class="contact-label">LinkedIn</div>
-          <div class="contact-value">ayush-singh-finance</div>
+          <div class="contact-value">anirbanmahanta</div>
         </a>
-        <a href="https://github.com/as764994-droid" target="_blank" class="contact-card">
+        <a href="https://github.com/anirbanmahanta" target="_blank" class="contact-card">
           <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor" style="color:#ffffff" class="github-icon"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div>
           <div class="contact-label">GitHub</div>
-          <div class="contact-value">as764994-droid</div>
+          <div class="contact-value">anirbanmahanta</div>
         </a>
       </div>
       <div class="contact-cta reveal">
-        <a href="resume/Ayush_Singh_Resume.pdf" download class="btn-primary large">Download My Resume</a>
+        <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst" download class="btn-primary large">Download My Resume</a>
       </div>
     </div>
   </section>
@@ -793,7 +792,7 @@
             </div>
             <div class="msg-field">
               <label class="msg-label" for="senderEmail">✉️ Your Email</label>
-              <input type="email" id="senderEmail" class="msg-input" placeholder="e.g. rahul@company.com" required />
+              <input type="email" id="senderEmail" class="msg-input" placeholder="e.g. sender@company.com" required />
             </div>
           </div>
 
@@ -810,7 +809,7 @@
 
           <div class="msg-field">
             <label class="msg-label" for="senderMessage">💬 Your Message</label>
-            <textarea id="senderMessage" class="msg-textarea" rows="6" placeholder="Write your message here in your own words — our AI will format it professionally before it reaches Ayush." required></textarea>
+            <textarea id="senderMessage" class="msg-textarea" rows="6" placeholder="Write your message here in your own words — our AI will format it professionally before it reaches Anirban." required></textarea>
           </div>
 
           <div class="msg-ai-note">
@@ -827,13 +826,13 @@
         <div class="msg-success" id="msgSuccess" style="display:none;">
           <div class="msg-success-icon">✅</div>
           <h3>Message Sent Successfully!</h3>
-          <p>Thank you for reaching out. Ayush will get back to you soon.</p>
+          <p>Thank you for reaching out. Anirban will get back to you soon.</p>
           <button onclick="resetForm()" class="msg-reset-btn">Send Another Message</button>
         </div>
 
         <!-- Error Message -->
         <div class="msg-error" id="msgError" style="display:none;">
-          <div>❌ Something went wrong. Please try again or email directly at <strong>as764994@gmail.com</strong></div>
+          <div>❌ Something went wrong. Please try again or email directly at <strong>anirbanmahanta.2008@gmail.com</strong></div>
         </div>
 
       </div>
@@ -844,7 +843,7 @@
   <footer id="footer">
     <div class="footer-inner">
       <div class="footer-logo">AS<span class="dot">.</span></div>
-      <p class="footer-text">Anirban Mahanta · Data Analyst · Lucknow, India</p>
+      <p class="footer-text">Anirban Mahanta · Data Analyst · Kolkata, India</p>
       <p class="footer-copy">Built with HTML · CSS · JavaScript &nbsp;|&nbsp; © <span id="footerYear">2026</span> Anirban Mahanta</p>
       
     </div>
