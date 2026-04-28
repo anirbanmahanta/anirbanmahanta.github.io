@@ -142,7 +142,7 @@
       <div class="about-grid">
         <div class="about--wrap reveal">
           <div class="photo-placeholder">
-            <img src="assets/images/profile-photo.jpeg" alt="Anirban Mahanta" />
+            <img src="assest/images/profile-photo.jpeg" alt="Anirban Mahanta" />
           </div>
           <div class="photo-accent"></div>
         </div>
