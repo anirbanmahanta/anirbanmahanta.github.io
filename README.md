@@ -125,7 +125,7 @@
       </div>
       <div class="hero-actions reveal delay-4">
         <a href="#projects" class="btn-primary">View Projects</a>
-        <a href="resume/Anirban_Singh_Resume.pdf" download class="btn-secondary">Download Resume</a>
+        <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst.pdf" download class="btn-secondary">Download Resume</a>
         <a href="#contact" class="btn-ghost">Contact Me</a>
       </div>
     </div>
@@ -295,7 +295,7 @@
             <span class="feature-tag">Bookmarks</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/Netflix-Content-Analytics-PowerBI" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/Netflix-Content-Analytics-PowerBI" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -327,7 +327,7 @@
             <span class="feature-tag">Visibility Correlation</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/blinkit-grocery-sales-performance-dashboard-powerbi" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/blinkit-grocery-sales-performance-dashboard-powerbi" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -363,7 +363,7 @@
             <span class="feature-tag">GETPIVOTDATA</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/Sales-Performance-Dashboard" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/Sales-Performance-Dashboard" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -397,7 +397,7 @@
             <span class="feature-tag">3 Strategic Recommendations</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/swiggy-sales-analysis-excel" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/swiggy-sales-analysis-excel" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -430,7 +430,7 @@
             <span class="feature-tag">Geo Segmentation</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/Vrinda-Excel-Project" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/Vrinda-Excel-Project" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -464,7 +464,7 @@
             <span class="feature-tag">Full EDA</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/sql-retail-sales-analysis-project" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/sql-retail-sales-analysis-project" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -503,7 +503,7 @@
             <span class="feature-tag">What-If Parameter</span>
           </div>
           <div class="project-footer">
-            <a href="https://github.com/as764994-droid/credit-risk-loan-default-analysis" target="_blank" class="project-link">View on GitHub →</a>
+            <a href="https://github.com/anirbanmahanta/credit-risk-loan-default-analysis" target="_blank" class="project-link">View on GitHub →</a>
           </div>
         </div>
 
@@ -788,11 +788,11 @@
           <div class="msg-form-row">
             <div class="msg-field">
               <label class="msg-label" for="senderName">👤 Your Name</label>
-              <input type="text" id="senderName" class="msg-input" placeholder="e.g. Rahul Sharma" required />
+              <input type="text" id="senderName" class="msg-input" placeholder="e.g. Anirban Mahanta" required />
             </div>
             <div class="msg-field">
               <label class="msg-label" for="senderEmail">✉️ Your Email</label>
-              <input type="email" id="senderEmail" class="msg-input" placeholder="e.g. sender@company.com" required />
+              <input type="email" id="senderEmail" class="msg-input" placeholder="e.g. anirban@company.com" required />
             </div>
           </div>
 
