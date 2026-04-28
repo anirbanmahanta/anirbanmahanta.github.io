@@ -525,17 +525,17 @@
           <div class="edu-card reveal">
             <div class="edu-year ongoing">Ongoing</div>
             <div class="edu-details">
-              <div class="edu-degree">Data Analytics with GenAI Program</div>
+              <div class="edu-degree">Data Analytics with AI Program</div>
               <div class="edu-inst">PW Skills</div>
               <div class="edu-desc">SQL · Python · Power BI · Tableau · Machine Learning fundamentals</div>
             </div>
           </div>
           <div class="edu-card reveal delay-1">
-            <div class="edu-year">2020 – 2024</div>
+            <div class="edu-year">2008 – 2011</div>
             <div class="edu-details">
-              <div class="edu-degree">B.Com — Accounting &amp; Finance</div>
-              <div class="edu-inst">University of Kolkata</div>
-              <div class="edu-desc">Core coursework in financial accounting, business analytics, and economics.</div>
+              <div class="edu-degree">B.Arts — General</div>
+              <div class="edu-inst">University of Burdwan</div>
+              <div class="edu-desc">Core coursework in General Subjects</div>
             </div>
           </div>
         </div>
