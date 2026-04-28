@@ -626,7 +626,7 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
       return '👋 ' + kb.about + '\n\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n📁 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n📍 Location: Lucknow · Open to Remote & Relocation\n⚡ Availability: Immediate Joiner\n\n📧 ' + kb.email + '\n💼 ' + kb.linkedin;
 
     if (/hiring|we.*looking|open.*position|job opening|vacancy|team.*need|recruiting|talent|candidate|interview|onboard|join.*team/.test(q))
-      return '👔 Sounds like you\'re hiring! Here\'s Anirban\'s quick recruiter summary:\n\n🎯 Role: Data Analyst / Business Analyst\n📍 Location: Lucknow — open to Remote & Relocation\n⚡ Availability: Immediate Joiner — Zero notice period\n📊 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n\n📧 Reach him at: anirbanmahanta.2008@gmail.com
+      return '👔 Sounds like you\'re hiring! Here\'s Anirban\'s quick recruiter summary:\n\n🎯 Role: Data Analyst / Business Analyst\n📍 Location: Kolkata — open to Remote & Relocation\n⚡ Availability: Immediate Joiner — Zero notice period\n📊 Projects: 7 end-to-end across 6 industries\n💰 Revenue Tracked: ₹311M+\n🛠️ Tools: Power BI · Advanced Excel · SQL · DAX\n\n📧 Reach him at: anirbanmahanta.2008@gmail.com
 .com\n💼 LinkedIn: linkedin.com/in/anirbanmahanta\n\nHe\'s ready to contribute from Day 1! 🚀';
 
     if (/surprise|random|fun fact|impress me|wow me/.test(q)) {
@@ -646,7 +646,7 @@ if(certModal)certModal.addEventListener('click',function(e){if(e.target===this)w
       return 'Hello! 👋 I\'m Anirban\'s AI assistant. I can tell you everything about his skills, projects, experience, and availability. What would you like to know?';
 
     if (/who are you|what are you|are you ai|are you real|are you human/.test(q))
-      return 'I\'m an AI assistant built specifically for Anirban Singh\'s portfolio. I know everything about his skills, projects, certifications, and career goals. Ask me anything! 🤖';
+      return 'I\'m an AI assistant built specifically for Anirban Mahanta\'s portfolio. I know everything about his skills, projects, certifications, and career goals. Ask me anything! 🤖';
 
     // ✅ FIX #2: Dead code removed — only one return for resume condition
     if (/resume|cv|download|portfolio pdf/.test(q))
