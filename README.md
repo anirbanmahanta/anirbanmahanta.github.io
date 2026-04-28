@@ -68,7 +68,7 @@
         <li><a href="#sendmessage">Message</a></li>
       </ul>
       <button id="themeToggle" class="theme-toggle" title="Toggle light/dark mode">🌙</button>
-      <a href="resume/Anirban_Singh_Resume.pdf" download class="nav-cta">Download Resume</a>
+      <a href="resume/Anirban_Mahanta_CV_Aspiring_Data_Analyst" download class="nav-cta">Download Resume</a>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
