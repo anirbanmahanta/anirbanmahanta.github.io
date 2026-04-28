@@ -9,7 +9,7 @@
   <meta name="description" content="Anirban Mahanta — Data Analyst. Power BI, SQL, Advanced Excel. 7 end-to-end projects across 6 industries." />
   <meta property="og:title" content="Anirban Mahanta — Data Analyst Portfolio" />
   <meta property="og:description" content="7 real-world analytics projects across 6 industries. Power BI · Excel · SQL · DAX." />
-  <meta property="og:image" content="assets/images/profile-photo.jpeg.jpeg" />
+  <meta property="og:image" content="assest/images/profile-photo.jpeg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Anirban Mahanta — Data Analyst Portfolio" />
@@ -140,7 +140,7 @@
     <div class="container">
       <div class="section-label reveal">01 — About</div>
       <div class="about-grid">
-        <div class="about-photo-wrap reveal">
+        <div class="about--wrap reveal">
           <div class="photo-placeholder">
             <img src="assets/images/profile-photo.jpeg" alt="Anirban Mahanta" />
           </div>
