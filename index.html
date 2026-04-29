@@ -842,7 +842,7 @@
   <!-- ===== FOOTER ===== -->
   <footer id="footer">
     <div class="footer-inner">
-      <div class="footer-logo">AS<span class="dot">.</span></div>
+      <div class="footer-logo">AM<span class="dot">.</span></div>
       <p class="footer-text">Anirban Mahanta · Data Analyst · Kolkata, India</p>
       <p class="footer-copy">Built with HTML · CSS · JavaScript &nbsp;|&nbsp; © <span id="footerYear">2026</span> Anirban Mahanta</p>
       
