@@ -9,7 +9,7 @@
   <meta name="description" content="Anirban Mahanta — Data Analyst. Power BI, SQL, Advanced Excel. 7 end-to-end projects across 6 industries." />
   <meta property="og:title" content="Anirban Mahanta — Data Analyst Portfolio" />
   <meta property="og:description" content="7 real-world analytics projects across 6 industries. Power BI · Excel · SQL · DAX." />
-  <meta property="og:image" content="assest/images/profile-photo.jpeg" />
+  <meta property="og:image" content="assets/images/profile-photo.jpeg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Anirban Mahanta — Data Analyst Portfolio" />
@@ -27,7 +27,7 @@
   <!-- ✅ FIX #4: Theme applied BEFORE paint — no more light/dark flicker -->
   <script>
     (function() {
-      var saved = localStorage.getItem('Anirban_theme');
+      var saved = localStorage.getItem('anirban_theme');
       if (saved === 'light') {
         document.documentElement.classList.add('pre-light');
       }
@@ -140,9 +140,9 @@
     <div class="container">
       <div class="section-label reveal">01 — About</div>
       <div class="about-grid">
-        <div class="about--wrap reveal">
+        <div class="about-photo-wrap reveal">
           <div class="photo-placeholder">
-            <img src="assest/images/profile-photo.jpeg" alt="Anirban Mahanta" />
+            <img src="assets/images/profile-photo.jpeg" alt="Anirban Mahanta" />
           </div>
           <div class="photo-accent"></div>
         </div>
@@ -525,17 +525,17 @@
           <div class="edu-card reveal">
             <div class="edu-year ongoing">Ongoing</div>
             <div class="edu-details">
-              <div class="edu-degree">Data Analytics with AI Program</div>
+              <div class="edu-degree">Data Analytics with GenAI Program</div>
               <div class="edu-inst">PW Skills</div>
               <div class="edu-desc">SQL · Python · Power BI · Tableau · Machine Learning fundamentals</div>
             </div>
           </div>
           <div class="edu-card reveal delay-1">
-            <div class="edu-year">2008 – 2011</div>
+            <div class="edu-year">2020 – 2024</div>
             <div class="edu-details">
               <div class="edu-degree">B.Arts — General</div>
               <div class="edu-inst">University of Burdwan</div>
-              <div class="edu-desc">Core coursework in General Subjects</div>
+              <div class="edu-desc">Core coursework in financial accounting, business analytics, and economics.</div>
             </div>
           </div>
         </div>
@@ -628,16 +628,16 @@
         <div class="tl-item reveal" data-side="left">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2008</div>
+            <div class="tl-date">2020</div>
             <div class="tl-icon">🎓</div>
             <div class="tl-title">Started B.Arts</div>
-            <div class="tl-desc">Enrolled in B.Com General at University of Burdwan.</div>
+            <div class="tl-desc">Enrolled in B.Arts General at University of Burdwan. General Subjects Ex.Geography.</div>
           </div>
         </div>
         <div class="tl-item reveal delay-1" data-side="right">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2025</div>
+            <div class="tl-date">2022</div>
             <div class="tl-icon">📗</div>
             <div class="tl-title">Mastered Advanced Excel</div>
             <div class="tl-desc">Learned Pivot Tables, Power Query, GETPIVOTDATA, and dashboard design. Built first analytics project — National Distributor Dashboard with 100K+ records.</div>
@@ -647,7 +647,7 @@
         <div class="tl-item reveal delay-2" data-side="left">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2026</div>
+            <div class="tl-date">2023</div>
             <div class="tl-icon">📊</div>
             <div class="tl-title">Entered Power BI</div>
             <div class="tl-desc">Completed Power BI Workshop. Started building production-grade dashboards with DAX, Power Query, Row-Level Security, and What-If Parameters.</div>
@@ -657,11 +657,11 @@
         <div class="tl-item reveal delay-1" data-side="right">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-date">2025</div>
+            <div class="tl-date">2024</div>
             <div class="tl-icon">🏆</div>
-            <div class="tl-title">Started Upskilling</div>
-            <div class="tl-desc">Joined PW Skills Data Analytics with GenAI program. Built Netflix Dashboard — most complex project to date.</div>
-            <div class="tl-tag">SQL · Python · Tableau · Power BI · AI</div>
+            <div class="tl-title">Completed B.Com · Started Upskilling</div>
+            <div class="tl-desc">Graduated from University of Burdwan. Joined PW Skills Data Analytics with GenAI program. Built Netflix Dashboard — most complex project to date.</div>
+            <div class="tl-tag">SQL · Python · Tableau · GenAI</div>
           </div>
         </div>
         <div class="tl-item reveal delay-2" data-side="left">
@@ -788,11 +788,11 @@
           <div class="msg-form-row">
             <div class="msg-field">
               <label class="msg-label" for="senderName">👤 Your Name</label>
-              <input type="text" id="senderName" class="msg-input" placeholder="e.g. Anirban Mahanta" required />
+              <input type="text" id="senderName" class="msg-input" placeholder="e.g. Rahul Sharma" required />
             </div>
             <div class="msg-field">
               <label class="msg-label" for="senderEmail">✉️ Your Email</label>
-              <input type="email" id="senderEmail" class="msg-input" placeholder="e.g. anirban@company.com" required />
+              <input type="email" id="senderEmail" class="msg-input" placeholder="e.g. rahul@company.com" required />
             </div>
           </div>
 
