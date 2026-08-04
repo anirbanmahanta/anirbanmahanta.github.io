@@ -810,11 +810,11 @@
 
           <div class="msg-field">
             <label class="msg-label" for="senderMessage">💬 Your Message</label>
-            <textarea id="senderMessage" class="msg-textarea" rows="6" placeholder="Write your message here in your own words — our AI will format it professionally before it reaches Anirban." required></textarea>
+            <textarea id="senderMessage" class="msg-textarea" rows="6" placeholder="Write your message here — it'll land directly in Anirban's email and WhatsApp." required></textarea>
           </div>
 
           <div class="msg-ai-note">
-            ✨ <strong>AI-Powered:</strong> Your message will be automatically formatted professionally by AI before delivery.
+            📬 Your message is delivered instantly to both <strong>email</strong> and <strong>WhatsApp</strong>.
           </div>
 
           <button type="submit" class="msg-send-btn" id="msgSendBtn" onclick="handleFormSubmit()">
@@ -850,7 +850,7 @@
         <div class="footer-socials" style="margin-top:1rem">
           <a href="https://linkedin.com/in/anirbanmahanta" class="footer-social" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">in</a>
           <a href="https://github.com/anirbanmahanta" class="footer-social" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">⌥</a>
-          <a href="mailto:anirban@email.com" class="footer-social" aria-label="Email" title="Email">✉</a>
+          <a href="mailto:anirbanmahanta.2008@gmail.com" class="footer-social" aria-label="Email" title="Email">✉</a>
         </div>
       </div>
       <div class="footer-col">
@@ -917,6 +917,15 @@
 
 <script>
 
+    // ===== Contact form delivery config =====
+    // EmailJS (email delivery) — from https://www.emailjs.com dashboard
+    const EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";   // Email Services → your connected Gmail
+    const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // Email Templates → your template
+
+    // CallMeBot (WhatsApp delivery) — from https://www.callmebot.com/blog/free-api-whatsapp-messages/
+    const WHATSAPP_PHONE   = "91XXXXXXXXXX";     // YOUR WhatsApp number, country code, no + or spaces
+    const CALLMEBOT_APIKEY = "YOUR_CALLMEBOT_APIKEY";
+
     async function handleFormSubmit() {
   const name    = document.getElementById('senderName').value.trim();
   const email   = document.getElementById('senderEmail').value.trim();
@@ -936,18 +945,26 @@
   document.getElementById('msgError').style.display = 'none';
 
   try {
-    const response = await fetch('https://hook.eu1.make.com/2aeshsu6wqu3wqk03e6b27p24e1io4h3', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, phone, subject, message })
+    // 1) Send to EMAIL via EmailJS
+    await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+      from_name: name,
+      from_email: email,
+      phone: phone || 'Not provided',
+      subject: subject,
+      message: message
     });
 
-    if (response.ok) {
-      document.getElementById('contactForm').style.display = 'none';
-      document.getElementById('msgSuccess').style.display = 'flex';
-    } else {
-      throw new Error('Failed');
-    }
+    // 2) Send to WHATSAPP via CallMeBot (fire-and-forget; no-cors means we
+    //    can't read the response, but the message still gets delivered)
+    const waText = encodeURIComponent(
+      `📩 New Portfolio Message\nName: ${name}\nEmail: ${email}\nPhone: ${phone || 'N/A'}\nSubject: ${subject}\n\n${message}`
+    );
+    fetch(`https://api.callmebot.com/whatsapp.php?phone=${WHATSAPP_PHONE}&text=${waText}&apikey=${CALLMEBOT_APIKEY}`, {
+      mode: 'no-cors'
+    }).catch(() => {});
+
+    document.getElementById('contactForm').style.display = 'none';
+    document.getElementById('msgSuccess').style.display = 'flex';
 
   } catch (err) {
     console.error(err);
@@ -967,6 +984,13 @@
   </script>
 
 
+
+  <!-- EmailJS SDK — powers the "Send a Message" form -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // ⚠️ Replace with YOUR EmailJS Public Key (Account → General → Public Key)
+    emailjs.init({ publicKey: "mM52VDChIZLbw4rpR" });
+  </script>
 
   <script src="script.js"></script>
 </body>
