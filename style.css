@@ -1117,7 +1117,7 @@ footer{background:var(--navy-mid);border-top:1px solid var(--border);padding:3re
 .footer-brand p{color:var(--muted);font-size:0.875rem;max-width:260px;line-height:1.65}
 .footer-col h4{font-family:var(--font-head);font-weight:700;color:var(--white);font-size:0.9rem;margin-bottom:1rem;letter-spacing:0.05em}
 .footer-links{list-style:none;display:flex;flex-direction:column;gap:0.6rem}
-.footer-links a{{background:rgba(29,111,255,0.1);border:1px solid rgba(29,111,255,0.2);color:var(--muted);text-decoration:none;padding:0.2rem 0.6rem;border-radius:50px;font-size:0.72rem;transition:color 0.2s}
+.footer-links a{color:var(--muted);text-decoration:none;font-size:0.85rem;transition:color 0.2s}
 .footer-links a:hover{color:var(--cyan)}
 .footer-skills{display:flex;flex-wrap:wrap;gap:0.4rem}
 .footer-skill{background:rgba(29,111,255,0.1);border:1px solid rgba(29,111,255,0.2);color:var(--off);padding:0.2rem 0.6rem;border-radius:50px;font-size:0.72rem}
