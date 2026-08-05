@@ -810,11 +810,11 @@
 
           <div class="msg-field">
             <label class="msg-label" for="senderMessage">💬 Your Message</label>
-            <textarea id="senderMessage" class="msg-textarea" rows="6" placeholder="Write your message here — it'll land directly in Anirban's email and WhatsApp." required></textarea>
+            <textarea id="senderMessage" class="msg-textarea" rows="6" placeholder="Write your message here in your own words — our AI will format it professionally before it reaches Anirban." required></textarea>
           </div>
 
           <div class="msg-ai-note">
-            📬 Your message is delivered instantly to both <strong>email</strong> and <strong>WhatsApp</strong>.
+            ✨ <strong>AI-Powered:</strong> Your message will be automatically formatted professionally by AI before delivery.
           </div>
 
           <button type="submit" class="msg-send-btn" id="msgSendBtn" onclick="handleFormSubmit()">
@@ -850,7 +850,7 @@
         <div class="footer-socials" style="margin-top:1rem">
           <a href="https://linkedin.com/in/anirbanmahanta" class="footer-social" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">in</a>
           <a href="https://github.com/anirbanmahanta" class="footer-social" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">⌥</a>
-          <a href="mailto:anirbanmahanta.2008@gmail.com" class="footer-social" aria-label="Email" title="Email">✉</a>
+          <a href="mailto:anirban@email.com" class="footer-social" aria-label="Email" title="Email">✉</a>
         </div>
       </div>
       <div class="footer-col">
@@ -917,34 +917,7 @@
 
 <script>
 
-    // ===== Contact form delivery config =====
-    // EmailJS (email delivery) — from https://www.emailjs.com dashboard
-    const EMAILJS_SERVICE_ID  = "service_v0vbi1r";   // Email Services → your connected Gmail
-    const EMAILJS_TEMPLATE_ID = "template_2cueptr";  // Email Templates → your template
-
-    // CallMeBot (WhatsApp delivery) — from https://www.callmebot.com/blog/free-api-whatsapp-messages/
-    const WHATSAPP_PHONE   = "91XXXXXXXXXX";     // YOUR WhatsApp number, country code, no + or spaces
-    const CALLMEBOT_APIKEY = "YOUR_CALLMEBOT_APIKEY";
-
-    async function handleFormSubmit() {
-  const name    = document.getElementById('senderName').value.trim();
-  const email   = document.getElementById('senderEmail').value.trim();
-  const subject = document.getElementById('senderSubject').value.trim();
-  const phone   = document.getElementById('senderPhone').value.trim();
-  const message = document.getElementById('senderMessage').value.trim();
-
-  if (!name || !email || !subject || !message) {
-    alert('Please fill in all fields before sending.');
-    return;
-  }
-
-  const btn     = document.getElementById('msgSendBtn');
-  const btnText = document.getElementById('msgBtnText');
-  btnText.textContent = '⏳ Sending...';
-  btn.disabled = true;
-  document.getElementById('msgError').style.display = 'none';
-
-  try {
+// ===== Contact form delivery config =====
     // 1) Send to EMAIL via EmailJS
     await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
       from_name: name,
